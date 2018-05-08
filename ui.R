@@ -6,8 +6,17 @@
 #
 
 library(shiny)
-library(plotly)
+#library(shinyBS)
 library(shinydashboard)
+#library(flexdashboard)
+#library(plyr)
+#library(ggplot2)
+library(plotly)
+#library(lubridate)
+#library(dplyr)
+#library(tidyr)
+#library(TTR)
+#library(rmarkdown)
 
 shinyUI(
   fluidPage(

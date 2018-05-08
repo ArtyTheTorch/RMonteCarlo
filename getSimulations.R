@@ -3,7 +3,7 @@ getSimulations <- function(a,b,c,sampleSize){
   # b: Upper bounds
   # c: Peak such that a <= c <= b
   
-  points <- runif(sampleSize)
+  points <- as.numeric(runif(sampleSize))
   fc <- (c - a) / (b - a)
   
   for (i in 1:sampleSize){
